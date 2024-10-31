@@ -60,5 +60,5 @@ A class for plotting SHAP computation times.
 Example usage on *example_usage.py*
 
 ### Benchmarks
-Still running, but using the [ember_v2](https://www.kaggle.com/datasets/dhoogla/ember-2017-v2-features/data?select=test_ember_2017_v2_features.parquet) dataset which has 2381 features and 900k rows approximately. I have only tested it for 10 and 100 samples so far and this is the curve produced:
+Still running, but using the [ember_v2](https://www.kaggle.com/datasets/dhoogla/ember-2017-v2-features/data?select=test_ember_2017_v2_features.parquet) dataset which has 2381 features and 900k rows approximately and an AdaBoostingCLassifier with max depth=1 and n_estimators=50. I have only tested it for 10 and 100 samples so far and this is the curve produced:
 ![output](https://github.com/user-attachments/assets/892508c0-5e46-4786-a4fc-87ccc78f9fcf)
